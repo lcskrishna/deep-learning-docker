@@ -34,3 +34,15 @@ To use it, follow the below instructions:
 ```
 
 This maps the home directory of your ubuntu system with the hostmachine folder in the docker directory.
+
+## Pytorch
+Here is the link for [Pytorch CPU Version](https://hub.docker.com/r/lcskrishna/pytorch-docker/) docker file.
+
+To use it, follow the below instructions:
+
+```
+% sudo docker pull lcskrishna/pytorch-docker
+% sudo docker run -it -v /home/:/root/hostmachine --network host lcskrishna/pytorch-docker
+```
+
+This maps the home directory of your ubuntu system with the hostmachine folder in the docker directory.
